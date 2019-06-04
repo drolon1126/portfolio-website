@@ -2002,11 +2002,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background: #9ca7ba;
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
+				background: #9ca7ba;
 				color: #484d55;
 			}
 
@@ -2096,12 +2096,13 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: fixed;
 		display: block;
 		top: 2.5em;
 		left: 0;
 		width: 100%;
 		text-align: center;
+		z-index: 1000;
 	}
 
 		#nav > ul {
